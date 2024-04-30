@@ -1,0 +1,33 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "a store api for getting user defined products including pagination, limits and skipping",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/busingepius/store.git"
+  },
+  "keywords": [
+    "store",
+    "API"
+  ],
+  "author": "businge pius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/busingepius/store/issues"
+  },
+  "homepage": "https://github.com/busingepius/store#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
